@@ -1,11 +1,14 @@
+import javax.swing.*;
+
 public class Main {
 
-    static double divideTwoNumbers(double firstNum, double secondNum) {
-        return firstNum / secondNum;
+    static double timesNum (double firstNum, double secondNum) {
+        return firstNum * secondNum;
     }
+
     public static void main(String[] args) {
         double firstNum = Double.parseDouble(args[0]);
         double secondNum = Double.parseDouble(args[1]);
-        System.out.println(divideTwoNumbers(firstNum, secondNum));
+        System.out.println(timesNum(firstNum, secondNum));
     }
 }
